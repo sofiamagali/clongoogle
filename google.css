@@ -1,0 +1,134 @@
+
+
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: white !important;
+    color: wheat;
+}
+
+#centro{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#editarboton{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #c6c6c6;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+#editarboton a:hover{
+    border: 1px solid #404244;
+
+}
+
+.imag{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pos{
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+    margin-inline: px;
+}
+
+.boton{
+    margin-right: 14px;
+    background-color: #e8e8e870 !important;
+    border-color: #e2e4e621 !important;
+    margin-left: 10px;
+}
+
+.bg-light{
+    background-color: #ffffff !important;
+}
+.btn-secondary.disabled, .btn-secondary:disabled {
+    color: #000000 !important;
+    background-color: #e8e8e870 !important;
+    border-color: #e2e4e621 !important;
+    font-size: 16px;
+    height: 43px;
+}
+
+.texto{
+    font-size: 17px;
+    text-decoration: none;
+    color: #00000082;
+    display: flex;
+    justify-content: center;
+    margin-top: 19px;
+    margin: 24px;
+    word-spacing: 1px;
+    /* white-space: break-spaces; */
+    align-content: 16px;
+}
+h3{
+    font-size: 20px;
+}
+
+.col-sm-12{
+    margin-top: 81px;
+    margin: 51px 0px 28px 0px;
+    background-color: #e8e8e870 !important;
+    border-color: #e2e4e6 !important;
+    height: 53px;
+    /* width: 1013px; */
+    align-items:center;
+}
+
+
+.dividir{
+    border: 1px solid #dadce0;
+    font-size: 15px;
+    background-color: #f2f2f2;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p{
+    padding:.9rem 1rem !important;
+    color: #888888 !important;
+}
+
+a{
+    color: #4c36ca !important;
+    text-decoration: none !important;
+    margin: 3px;
+}
+.dividir a{
+    color: #888888 !important;
+    text-decoration: none !important;
+    margin: 10px;
+}
+
+.unir1{
+    display: flex;
+    justify-content: inherit;
+    font-family: arial,sans-serif;
+    color: #222222f2;
+    white-space: pre-wrap;
+    padding: .9rem 1rem;
+}
+.unir2{
+    display: flex;
+    justify-content: flex-end;
+    height: 57px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+    white-space: pre-wrap;
+    padding: .9rem 1rem;
+}
